@@ -20,11 +20,11 @@
         ]
       },
       {
-        "tag": "UWP",
-        "patterns": ["What is UWP?", "What does UWP do?"],
+        "tag": "Name",
+        "patterns": ["What is your name?", "Whats your name?"],
         "responses": [
-          "UWP is an university-wide program by the SRM University that aims to better the wellness of students, faculty and other stakeholders on campus.",
-          "The program uses Research + Action to address various aspects of ones wellbeing."
+          "My name is chatty the chat bot",
+          "I am called chatty the chatbot, here to have a gossip with you"
         ]
       },
       {
@@ -43,23 +43,17 @@
       },
       {
         "tag": "Eligible",
-        "patterns": ["Who are Eligible for this program?", "Who is eligible?"],
+        "patterns": ["What is you available time?", "When can I talk to you?"],
         "responses": [
-          "The Professors of the University and Research Scholars are eligible for this program."
-        ]
-      },
-      {
-        "tag": "Students",
-        "patterns": ["Can students be involved?", "Are students allowed to participate in this initiative?"],
-        "responses": [
-          "The students are not allowed to participate in this initiative directly."
+          "I am always available to have a chat",
+          "Can't miss a gossip! Always here"
         ]
       },
       {
         "tag": "Tasks",
-        "patterns": ["What tasks can I complete to receive an acceptance?", "How do i get an acceptance?"],
+        "patterns": ["What tasks can you complete?", "What do I talk to you about?"],
         "responses": [
-          "These are the steps to receive an acceptance\n Go to Indicators and SDGs\n Serach for the goals listed there and see if they fulfil your reserach\n If yes upload your research paper and fill the form.\n You will get a mail from the UWP."
+          "Right now I am a very young chatbot don't have much to talk about :( \n You can talk to about:\n 1. My name \n 2. What are SDGs \n 3. Contact details"
         ]
       },
       {
@@ -100,26 +94,8 @@
         "patterns": [
           "Whom i can contact?", "Give me contact details.", "I need help from the support team?"],
         "responses": [
-          "This is the contact details, you can mail your queries: uwp.support@gmail.com",
-          "You can mail here: uwp.support@gmail.com"
-        ]
-      },
-      {
-        "tag": "name",
-        "patterns": [
-          "what is your name","what should i call you","what's your name?","who are you?","can you tell me your name"],
-        "responses": [
-          "you can call me UWPbot!","I am UWPbot!","I am UWPbot, your assistant"
-        ]
-      },
-      {
-        "tag": "focused programs",
-        "patterns": [
-          "What are your focused programs?","What are your projects based on?","What areas does this portal focus on?","On what domains can we submit our research?","What are the major programs?"
-        ],
-        "responses": [
-          "Our focused programs are : \n Global Warming \n Mental Health \n Water \n Sanitation and Hygiene \n Lifestyle Behavior"
-
+          "This is the contact details, you can mail your queries: vivek.chotu@support.com",
+          "You can mail here: vivek.chotu@support.com"
         ]
       },
       {
