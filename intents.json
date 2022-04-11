@@ -1,0 +1,214 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hey", "Hello", "Is anyone there?", "Good day", "Hey there"],
+        "responses": [
+          "Hey",
+          "Hello, how can I help?",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "will visit soon"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "UWP",
+        "patterns": ["What is UWP?", "What does UWP do?"],
+        "responses": [
+          "UWP is an university-wide program by the SRM University that aims to better the wellness of students, faculty and other stakeholders on campus.",
+          "The program uses Research + Action to address various aspects of ones wellbeing."
+        ]
+      },
+      {
+        "tag": "SDGs",
+        "patterns": ["What are SDGs?", "What do you mean by SDGs?"],
+        "responses": [
+          "The Sustainable Development Goals (SDGs), also known as the Global Goals, were adopted by the United Nations in 2015 as a universal call to action to end poverty, protect the planet, and ensure that by 2030 all people enjoy peace and prosperity."
+        ]
+      },
+      {
+        "tag": "Indicators",
+        "patterns": ["What are Indicators?", "What do you mean by Indicators?"],
+        "responses": [
+          "An indicator is a measurable aspect of environmental, economic, or social systems that is useful for monitoring changes in system characteristics relevant to the continuation of human and environmental well being."
+        ]
+      },
+      {
+        "tag": "Eligible",
+        "patterns": ["Who are Eligible for this program?", "Who is eligible?"],
+        "responses": [
+          "The Professors of the University and Research Scholars are eligible for this program."
+        ]
+      },
+      {
+        "tag": "Students",
+        "patterns": ["Can students be involved?", "Are students allowed to participate in this initiative?"],
+        "responses": [
+          "The students are not allowed to participate in this initiative directly."
+        ]
+      },
+      {
+        "tag": "Tasks",
+        "patterns": ["What tasks can I complete to receive an acceptance?", "How do i get an acceptance?"],
+        "responses": [
+          "These are the steps to receive an acceptance\n Go to Indicators and SDGs\n Serach for the goals listed there and see if they fulfil your reserach\n If yes upload your research paper and fill the form.\n You will get a mail from the UWP."
+        ]
+      },
+      {
+        "tag": "Distinguish",
+        "patterns": ["How can I distinguish if a program will be credited as a wellness, financial or fitness program?"],
+        "responses": [
+          "If it fulfils wellness criteria mentioned on the page then it will be credited as wellness and same for other programs."
+        ]
+      },
+      {
+        "tag": "New Portal",
+        "patterns": ["How do i access the journeys in the new portal?", "Access journeys in the new portal?"],
+        "responses": [
+          "You can visit the About Us section to know more about us. You can also go to the Announcements and Articles section. The Indicators and SDGs section will brief you more about our goals for the program."
+        ]
+      },
+      {
+        "tag": "Programs not eligible",
+        "patterns": ["What are some examples of the program not eligible for wellness program?"],
+        "responses": [
+          "All the programs which do not fall under the indicators and SDGs are not eligible for wellness rewards."
+        ]
+      },
+      {
+        "tag": "Submission Status",
+        "patterns": ["How do I know the submission status?"],
+        "responses": [
+          "You will get a mail with the status on the authors registered mail id"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help :)", "Any time!"]
+      },
+      {
+        "tag": "contact",
+        "patterns": [
+          "Whom i can contact?", "Give me contact details.", "I need help from the support team?"],
+        "responses": [
+          "This is the contact details, you can mail your queries: uwp.support@gmail.com",
+          "You can mail here: uwp.support@gmail.com"
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "what is your name","what should i call you","what's your name?","who are you?","can you tell me your name"],
+        "responses": [
+          "you can call me UWPbot!","I am UWPbot!","I am UWPbot, your assistant"
+        ]
+      },
+      {
+        "tag": "focused programs",
+        "patterns": [
+          "What are your focused programs?","What are your projects based on?","What areas does this portal focus on?","On what domains can we submit our research?","What are the major programs?"
+        ],
+        "responses": [
+          "Our focused programs are : \n Global Warming \n Mental Health \n Water \n Sanitation and Hygiene \n Lifestyle Behavior"
+
+        ]
+      },
+      {
+        "tag": "Global Warming",
+        "patterns": [
+          "what is global warming?","what does the research on global warming focus on?"],
+        "responses": [
+          "Global warming: a gradual increase in the overall temperature of the earth's atmosphere generally attributed to the greenhouse effect caused by increased levels of carbon dioxide, CFCs, and other pollutants."
+        ]
+      },
+      {
+        "tag": "Mental Health",
+        "patterns": [
+          "Why is mental health important?","what does the research on mental health focus on?"],
+        "responses": [
+          "Mental Health: a persons condition with regard to their psychological and emotional well-being."
+        ]
+      },
+      {
+        "tag": "Water",
+        "patterns": [
+          "what does the research on Water focus on?"],
+        "responses": [
+          "This research includes a suite of approaches and studies that capture different aspects of the human dimensions of water quality. "
+        ]
+      },
+      {
+        "tag": "Sanitation and Hygiene",
+        "patterns": [
+          "Why is Sanitation and Hygiene important?","what does the research on Sanitation and Hygiene focus on?"],
+        "responses": [
+          "Sanitation and Hygiene definition"
+        ]
+      },
+      {
+        "tag": "Lifestyle Behavior",
+        "patterns": [
+          "Why is Lifestyle Behavior important?","what does the research on Lifestyle Behavior focus on?"],
+        "responses": [
+          "Lifestyle Behavior definition"
+        ]
+      },
+      {
+        "tag": "Password Reset",
+        "patterns": [
+          "How do I reset my password?","Can you help me resetting my password?","What should I do to reset my password?","password reset"],
+        "responses": [
+          "To reset your password, follow the given steps:"
+        ]
+      },
+      
+      {
+        "tag": "Training Programs",
+        "patterns": [
+          "What are the training programs offered by you?","What are the educational programs offered?"],
+        "responses": [
+          "Following are the educational/training programs offered by us: ...."
+        ]
+      },
+      {
+        "tag": "Purpose",
+        "patterns": [
+          "What is the purpose of this platform?","What is the goal of this initiative?"],
+        "responses": [
+          "Our platform serves ...."
+        ]
+      },
+      {
+        "tag": "Help",
+        "patterns": [
+          "Hey, can you help me?","Can you please guide me","I need help","I need assistance"],
+        "responses": [
+          "Yes, sure. What can I help you with?",
+          "Sure,What can I do for you?",
+          "Yes, how can I be useful?",
+          "Sure,  how can I help?"
+        ]
+      },
+      {
+        "tag": "Navigation",
+        "patterns": [
+          "Where can I {this) particualr option on your site?",
+          "I cannot find the (particular) option.",
+          "Can you take me to (this) page?"
+        ],
+        "responses": [
+          "Click on (this) link...",
+          "You can try these options..."
+        ]
+      }
+    ]
+  }
